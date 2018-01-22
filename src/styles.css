@@ -1,1 +1,114 @@
 /* You can add global styles to this file, and also import other style files */
+@import './assets/fonts/fonts.css';
+@import '~bootstrap/dist/css/bootstrap.min.css';
+html*,div,p,span,td,th,h1,h2,h3,h4,h5,h6,li,a{
+    font-family: supermarketregular;
+}
+.padding-0{
+    padding: 0;
+}
+
+.card-title{
+    font-family: 'kanitthin_italic';
+    padding:0;
+}
+.card-block{
+    position: relative;
+    padding:0;
+}
+.card .tag-time{
+    background-image:url('assets/images/bg-time.png');
+    background-size: 100% 100%;
+    color:#fff;
+    padding:6px 24px 6px 8px;
+    display:inline-block;
+    position: absolute;
+    right: 0;
+    top:-32px;
+    font-family: 'lemonmilk_lightregular';
+    font-size: 12px;
+}
+.recent-viewed .tag-time{
+    font-size: 12px;
+    top:-32px;
+    font-family: 'lemonmilk_lightregular';
+}
+.card .tag-view{
+    color:#888886;
+    font-family: supermarketregular;
+    font-size: 12px;
+    position: absolute;
+    top:-28px;
+    left:10px;
+    display: inline-block;
+}
+.recent-viewed .card .tag-view{
+    font-size: 12px;
+    left:5px;
+    top:-22px;
+}
+a.link-more{
+    font-size: 18px;
+    text-decoration: none;
+    color: #94999d;
+    margin-top: 10px;
+    display: block;
+}
+
+hr{
+    color:#94989b;
+}
+footer{
+    background:#150415;
+}
+footer .footer-logo img{
+    max-height: 24px;
+}
+
+footer,
+footer a,
+footer a:hover{
+    font-family: 'kanitlight';
+    color:#ffffff;
+}
+footer p{
+    font-size: 18px;
+}
+.footer-logo{
+    max-height: 24px;
+}
+.all-aright{
+    color:#95989a;
+}
+.subscribe{
+    border:1px solid #ed4848;
+    color:#ffffff;
+    padding:10px;
+    text-align: center;
+    background: transparent;
+    width: 100%;
+}
+
+.mt-10{
+    margin-top:10px;
+}
+
+.mb-10{
+    margin-bottom: 10px;
+}
+.sortby{
+    display: block;
+    margin:10px 0;
+}
+
+.sortby button{
+    background: transparent;
+    border:1px solid #949494;
+    color:#444;
+    padding:5px 10px;
+}
+
+.sortby button .caret{
+    border-left: 1px solid #949494;
+    padding:4px;
+}

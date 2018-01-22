@@ -1,0 +1,171 @@
+$font-supermaket:'supermarketregular';
+$font-kanit_thin_italic:'kanitthin_italic';
+$font-lemonmilkregular:'lemonmilkregular';
+$font-lemonmilk_lightregular:'lemonmilk_lightregular';
+
+$white:#fff;
+.padding-0{
+    padding:0;
+}
+.margin-0{
+    margin: 0;
+}
+.card-six{
+    font-family: $font-supermaket;
+    .tag-time{
+        font-family: $font-lemonmilk_lightregular;
+        font-size: 12px;
+        top:-22px;    
+    }
+
+    .tag-view{
+        color:#888886;
+        font-size: 13px;
+        position: absolute;
+        top:-20px;
+        left:4px;
+        display: inline-block;
+    }
+}
+
+.series-header{
+    font-family: $font-supermaket;
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+    
+    button{
+        border:1px solid #888888;
+        color:#888888;
+        background: transparent;
+        text-align: center;
+        font-size: 16px;
+        padding:8px 20px;
+        position: absolute;
+        right: 0;
+        top: 10px;
+        cursor: pointer;
+    }
+    h3{
+        font-weight: bold;
+    }
+}
+.card-series{
+    margin-top:40px;
+    .col-md-6{
+        margin-bottom:28px;
+    }
+}
+.cate-title{
+    padding:10px 0;
+    margin-top:90px;
+    margin-bottom:20px;
+    color:#000;
+    font-family: $font-lemonmilkregular;
+    font-size: 18px;
+    position: relative;
+    border-top:1px solid #c5c5c5;
+    span{
+        position: relative;
+        margin: auto;
+        top:-22px;
+        background: $white;
+        padding:10px 40px;
+    }
+
+}
+.card-block{
+    font-family: $font-kanit_thin_italic;
+    p{
+        line-height: 1.1;
+        font-size: 14px;
+        margin:2px;
+        strong{
+            font-size: 16px;
+        }
+    }
+}
+.card-two{
+    font-family: $font-kanit_thin_italic;
+    p{
+        line-height: 1.1;
+        font-size: 12px;
+        margin:2px;
+        strong{
+            font-size: 14px;
+        }
+    }
+    .tag-time{
+        font-family: $font-lemonmilk_lightregular;
+        font-size: 12px;
+        top:-22px;    
+    }
+
+    .tag-view{
+        color:#888886;
+        font-size: 12px;
+        position: absolute;
+        top:-20px;
+        left:4px;
+        display: inline-block;
+    }
+}
+.row-vote{
+    display: inline-block;
+    clear: both;
+    width:100%;
+    border-bottom: 1px solid #94989b;
+    margin-bottom: 20px;
+    margin-left:0;
+    text-align: center;
+    .nave-vote{
+        margin: auto;
+        list-style: none;
+        display: inline-block;
+        li{
+            float: left;
+            padding:6px 10px;
+            border-right: 1px solid #94989b;
+            font-size: 14px;
+            font-family: $font-kanit_thin_italic;
+        }
+        li:last-child{
+            border:0;
+        }
+    }
+}
+.content-detail{
+    clear: both;
+    display: block;
+    
+
+    p.small-title{
+        font-family: $font-supermaket;
+        text-indent: 0;
+    }
+    p{
+        text-indent: 1.5em;
+    }
+}
+
+.card-one {
+    .card{
+        border:none;
+        margin-bottom:10px;
+        .card-block{
+            padding:4px;
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
+
+    .card{
+        border:none;
+    }
+
+img{
+    max-width: 100%;
+}

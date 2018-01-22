@@ -1,0 +1,45 @@
+.content-header{
+    position: relative;
+}
+.btn-follow{
+    text-align: right;
+    position: absolute;
+    top:0;
+    right: 0;
+    display: inline-block;
+    width:100%;
+    color:#888;
+}
+.btn-follow button{
+    border:1px solid #888;
+    text-align: center;
+    display: block;
+    background: transparent;
+    padding:5px 20px;
+    color:#888;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'supermarketregular';
+    position: absolute;
+    right:0;
+}
+.follow-text{
+    position: absolute;
+    text-align: right;
+    top:40px;
+    right: 0px;
+    font-size: 14px;
+    font-family: 'supermarketregular';
+    
+}
+
+.col-title{
+    color:#434343;
+    font-family: 'supermarketregular';
+    
+}
+.col-title >p,
+.col-title > h4{
+    margin: 0;
+    padding:0;
+}
